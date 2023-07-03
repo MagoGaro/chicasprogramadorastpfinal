@@ -1,0 +1,64 @@
+.g{
+    height: 80vh;
+}
+.slide2{
+    max-height: 100%;
+    border-radius: 5px;
+}
+.imgslide{
+    width: 100%;
+}
+.contenedor{
+    margin: 1rem 0;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.principal{
+    height: 80vh;
+    width: 75%;
+}
+.costado{
+    height: 80vh;
+    width: 20%;
+    text-align: center;
+}
+
+.articulo{
+    border-radius: 5px;
+    height: 45vh;
+}
+
+.tituloCostado{
+    font-size: 1.3rem;
+}
+footer{
+    margin-top: 2rem;
+}
+.pie{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fa-copyright{
+    margin: 0 10px;
+}
+
+.pie p{
+    margin: 0 5px; 
+}
+
+.pagina2{
+    border-radius: 20px;
+    width: 100%;
+    background-color: #F8DE7E;
+    overflow-y: scroll;
+}
+
+.formulariosubida{
+    
+    margin: auto 0;
+    color: #6e2c00;
+}
