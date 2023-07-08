@@ -20,51 +20,28 @@
 
 <body class="container">
   <header id="header">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Patitas Perdidas</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="wanted_post.html">Subi tu Busqueda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="wanted_get.html">Buscados</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contac.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    
     
   </header>
 
   <main class="contenedor principal pagina2">
 
-    <form class="formulariosubida">
+    <form class="formulariosubida" name="patitas-perdidas">
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Nombre Mascota</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label for="nombre" class="form-label">Nombre Mascota</label>
+          <input type="text" class="form-control" name="nombre" id="nombre">
         </div>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Número de Contacto</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="ncontacto" class="form-label">Número de Contacto</label>
+            <input type="text" class="form-control" name="ncontacto" id="ncontacto">
           </div>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Foto de la Mascota</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="foto" class="form-label">Foto de la Mascota</label>
+            <input type="text" class="form-control"name="foto" id="foto">
           </div>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Zona donde se Perdio</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="zonap" class="form-label">Zona donde se Perdio</label>
+            <input type="text" class="form-control" name="zonap" id="zonap">
           </div>
         
        
@@ -73,11 +50,8 @@
 
   </main>
 
-  <footer>
-    <section class="pie">
-      <i class="fa-regular fa-copyright"></i>
-      <p>   Copyright    |    </p><p> Creado por ChicasProgramadoras Corrientes</p>
-    </section>
+  <footer id="piesito">
+    
   </footer>
 
   <!-- Bootstrap JavaScript Libraries -->
@@ -88,6 +62,8 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
 
+  <script src="./js/main.js"></script>
+  <script src="./js/enviar.js"></script>
 </body>
 
 </html>
